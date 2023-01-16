@@ -1,4 +1,4 @@
-Repository for the JS Front-End course in Software University.
+Repository for the HTML & CSS course in Software University.
 
 <a href="https://softuni.bg/trainings/courses" rel="Courses">  ![SoftUni logo][logo] <a/>
 
