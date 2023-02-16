@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+div, section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container {
+    max-width: 65vw;
+    gap: 0px;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    height: 150px;
+}
+
+.week {
+    flex-basis: 70%;
+}
+
+.week span:nth-child(1) {
+    flex: 1 1 100%;
+}
+
+.week span:nth-child(2) {
+    flex: 1 1 20%;
+}
+
+.week span:nth-child(3) {
+    flex: 1 1 20%;
+}
+
+.week span:nth-child(4) {
+    flex: 1 1 20%;
+}
+
+.week span:nth-child(5) {
+    flex: 1 1 20%;
+}
+
+.week span:nth-child(6) {
+    flex: 1 1 20%;
+}
+
+.week span:nth-child(7) {
+    flex: 1 1 100%;
+}
+
+.week span:nth-child(8) {
+    flex: 1 1 50%;
+}
+
+.week span:nth-child(9) {
+    flex: 1 1 50%;
+}
+
+.notes {
+    flex-direction: column;
+    flex-basis: 30%;
+    height: 600px;
+}
+
+.notes > span:nth-child(1) {
+    width: 100%;
+    height: 50%;
+}
+
+.notes > span:nth-child(2) {
+    width: 100%;
+    height: 50%;
+}

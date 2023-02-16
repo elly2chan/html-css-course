@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    padding: 60px;
+}
+
+header {
+    display:flex;
+    border-bottom: 2px solid rgb(0,0,0);
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 12px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

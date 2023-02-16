@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 100px 1px #888888;
+    width: 430px;
+    height: 120px;
+    padding-left: 20px;
+}
+
+.card h1 {
+    font-size: 20px;
+}
