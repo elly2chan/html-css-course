@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+        grid-template-columns: 100% auto;
+        gap: 10px;
+    }
+
+    .header-h1 {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
